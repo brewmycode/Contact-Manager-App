@@ -1,0 +1,80 @@
+.container {
+  margin: 0 auto;
+  max-width: 140rem;
+}
+
+.header {
+  padding: 2rem;
+  height: 7rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-nav {
+  display: flex;
+  font-family: $font-family-1;
+  font-size: 1.4;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+  color: $color-gray-800;
+
+  &__item {
+    margin-left: 4rem;
+    text-transform: uppercase;
+  }
+}
+
+.hero {
+  flex: 1 1 100%;
+  height: 80rem;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  flex: 0 0 100%;
+}
+
+.gallery {
+  flex: 0 0 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer {
+  margin-top: 20rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer-box {
+  flex: 1 1 47%;
+  margin: 1rem;
+  height: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  & > * > :first-child {
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    font-family: $font-family-1;
+    letter-spacing: 0.2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: $color-gray-800;
+  }
+}
+.contact-map {
+  flex: 1 1 45%;
+}

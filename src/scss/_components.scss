@@ -1,0 +1,131 @@
+.logo {
+  flex: 1;
+  font-family: $font-family-1;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: $color-gray-800;
+}
+
+.hero-img {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+}
+
+.card {
+  background-color: $american-rose;
+  height: 30rem;
+  flex: 0 0 30%;
+  margin: 1rem;
+}
+
+.contact {
+  padding: 0 2rem;
+  border-left: 1px solid #e3e3e3;
+  flex: 0 0 50%;
+  margin-bottom: 4rem;
+
+  display: flex;
+  flex-direction: column;
+
+  &__address {
+    letter-spacing: 0.1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__area {
+    margin-bottom: 1rem;
+  }
+}
+
+.social {
+  padding: 0 2rem;
+  border-left: 1px solid #e3e3e3;
+  flex: 0 0 50%;
+  margin-bottom: 4rem;
+
+  display: flex;
+  flex-direction: column;
+
+  &__icon-box {
+    display: flex;
+    height: 2rem;
+  }
+
+  &__icon {
+    width: 2rem;
+    margin-right: 1.4rem;
+    fill: $color-gray-600;
+  }
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.contact-form {
+  width: 100%;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  border-left: 1px solid #e3e3e3;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  &__body {
+    flex: 0 0 100%;
+    margin: auto;
+    height: 3rem;
+    width: 30rem;
+
+    display: flex;
+  }
+}
+
+.form {
+  &__input {
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+    flex: 0 0 20rem;
+    border: none;
+    border-bottom: 1px solid #e3e3e3;
+    margin-right: 2rem;
+    &:focus {
+      outline: none;
+    }
+  }
+  &__btn {
+    letter-spacing: 0.15rem;
+    flex: 0 0 6rem;
+    height: 100%;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #9fcfdc;
+    padding: 0 1rem;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $color-gray-050;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.footer-legal {
+  height: 7rem;
+  flex: 0 0 100%;
+  font-size: 1.3rem;
+  padding: 1rem 1rem 0 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

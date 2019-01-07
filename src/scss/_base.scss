@@ -1,0 +1,68 @@
+:root {
+  --color-primary: #9fcfdc;
+  --color-primary-light: #b1e5f3;
+  --color-primary-dark: #70b4c7;
+
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+
+  --shadow-dark: 0 0.2rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+$bp-largest: 75em;
+$bp-large: 68.75em;
+$bp-medium: 56.25em;
+$bp-largest: 75em;
+
+$font-family: "Roboto Condensed", sans-serif;
+$font-family-1: "Marianina Extended FY", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  color: $color-gray-600;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+li {
+  list-style-type: none;
+}
+
+input {
+  font-family: inherit;
+}
+
+button {
+  font-family: inherit;
+  color: inherit;
+}
