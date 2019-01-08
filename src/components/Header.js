@@ -2,7 +2,7 @@ function Header(props) {
   const { branding } = props;
   return (
     <div>
-      <h1 style={headingStyle}>{branding}</h1>
+      <h2 style={headingStyle}>{branding}</h2>
     </div>
   );
 }

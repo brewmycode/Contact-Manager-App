@@ -13,13 +13,13 @@ export class Contacts extends React.Component {
         },
         {
           id: 2,
-          name: "Rex Mitvh",
+          name: "Rex Mitchel",
           email: "rex@gmail.com",
           phone: "123-234-2345"
         },
         {
           id: 3,
-          name: "Addy Osmanu",
+          name: "Addy Osmani",
           email: "addy@gmail.com",
           phone: "089-234-2370"
         }
