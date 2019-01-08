@@ -1,14 +1,13 @@
 import "./App.scss";
 import Header from "./components/Header";
-import Contact from "./components/Contact";
+import Contacts from "./components/Contacts";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
         <Header />
-        <Contact name="John" email="jdoe@gmail.com" phone="453-656-6886" />
-        <Contact name="Karen" email="karen@gmail.com" phone="232-656-9987" />
+        <Contacts />
       </div>
     );
   }
